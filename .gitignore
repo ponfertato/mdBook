@@ -1,0 +1,27 @@
+# mdBook
+target
+
+# MacOS temp file
+.DS_Store
+
+book-test
+book
+guide/book
+
+.vscode
+tests/dummy_book/book/
+test_book/book/
+
+# Ignore Jetbrains specific files.
+.idea/
+
+# Ignore Vim temporary and swap files.
+*.sw?
+*~
+
+# Docker-compose
+bin/
+/.vscode/
+coverage.out
+covdatafiles/
+.DS_Store
